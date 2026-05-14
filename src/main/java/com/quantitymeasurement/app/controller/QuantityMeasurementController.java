@@ -38,7 +38,7 @@ public class QuantityMeasurementController {
     @GetMapping("/status")
     @Operation(summary = "Check deployment status")
     public ResponseEntity<String> getStatus() {
-        return ResponseEntity.ok("Jenkins Automated Deployment is working! Hello from AWS Cloud!");
+        return ResponseEntity.ok("Jenkins Automated Deployment is working! Waffflessssssssss!");
     }
 
     @PostMapping("/compare")
